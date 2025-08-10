@@ -24,3 +24,13 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.clip-top-corners {
+  width: 200px;
+  height: 200px;
+  background-color: #3b82f6; /* Tailwind blue-500 */
+  clip-path: path("M20,0 Q0,0 0,20 L0,200 L200,200 L200,20 Q200,0 180,0 Z");
+  -webkit-clip-path: path(
+    "M20,0 Q0,0 0,20 L0,200 L200,200 L200,20 Q200,0 180,0 Z"
+  ); /* Safari */
+}
